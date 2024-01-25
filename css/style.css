@@ -262,6 +262,10 @@ textarea {
   width: auto;
 }
 
+.outer__container{
+  margin: 2rem;
+}
+
 .content__container__image{
   height:20rem;
 }
@@ -289,4 +293,12 @@ textarea {
 .subsections__container{
   display: grid;
   grid-template-columns: repeat(4,1fr);
+}
+
+.subtitle{
+  text-align: center;
+}
+
+.subheader{
+  text-align: center;
 }
