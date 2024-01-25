@@ -245,3 +245,48 @@ textarea {
   }
 }
 
+.page{
+  display: grid;
+  justify-content: center;
+}
+
+.page__header{
+  justify-content: center;
+  align-items: center;
+}
+
+.container__header{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  width: auto;
+}
+
+.content__container__image{
+  height:20rem;
+}
+
+.container__squares{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.container__pictures{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+}
+
+.container__paragraphs{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.container__logos{
+  display:grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.subsections__container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
