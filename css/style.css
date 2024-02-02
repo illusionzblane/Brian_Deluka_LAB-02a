@@ -263,6 +263,9 @@ textarea {
 }
 
 .outer__container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
   margin: 2rem;
 }
 
@@ -297,3 +300,8 @@ textarea {
 .subheader{
   text-align: center;
 }
+
+.pic img {
+  width: 20%;
+}
+
