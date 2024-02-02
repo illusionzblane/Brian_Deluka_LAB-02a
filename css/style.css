@@ -270,7 +270,7 @@ textarea {
   height:20rem;
 }
 
-.container__squares{
+.grid-col-row-4-1{
   display: grid;
   grid-template-columns: repeat(4,1fr);
 }
@@ -288,11 +288,6 @@ textarea {
 .container__logos{
   display:grid;
   grid-template-columns: repeat(5,1fr);
-}
-
-.subsections__container{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
 }
 
 .subtitle{
