@@ -282,10 +282,9 @@ textarea {
   gap:4px;
 }
 
-.container__pictures{
+.grid-col-row-3-1{
   display: grid;
-  grid-auto-flow: column;
-  border:solid black 4px;
+  grid-template-columns: repeat(3,1fr);
 }
 
 .container__paragraphs{
@@ -318,5 +317,4 @@ textarea {
   object-fit: contain;
   width: 100%;
   height: 100%;
-}
-
+} 
