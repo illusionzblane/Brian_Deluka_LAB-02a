@@ -278,8 +278,14 @@ textarea {
 
 .grid-col-row-6-2{
   display: grid;
-  grid-template-columns: repeat(3,2fr);
-  gap:4px;
+  grid-template-rows: repeat(2,3fr);
+  grid-auto-flow: column;
+  max-width: 73rem;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+  border-image: initial;
+  margin: 0px auto;
 }
 
 .grid-col-row-3-1{
