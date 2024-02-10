@@ -251,15 +251,23 @@ textarea {
 }
 
 .page__header{
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto auto;
 }
 
 .container__header{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
+  display: flex;
+  grid-column: span 6;
   align-items: center;
-  width: auto;
+
+}
+
+.content__container{
+  display: flex;
+  text-align: center;
+  position: relative;
+  left: 24rem;
 }
 
 .outer__container{
@@ -269,6 +277,11 @@ textarea {
 
 .content__container__image{
   height:20rem;
+  grid-column: span 6;
+  text-align: center;
+  grid-row: 2;
+  position: relative;
+  bottom: -15rem;
 }
 
 .grid-col-row-4-1{
@@ -332,6 +345,10 @@ textarea {
   height: 100%;
 } 
 
-.fa fa-home fa-2x {
+.nav--item {
+  display: grid;
   border: 2px solid black;
+  margin: 0;
+  padding: 50px;
+  background-color: red;
 }
