@@ -266,6 +266,8 @@ textarea {
 .content__container{
   display: flex;
   text-align: center;
+  position: relative;
+  left: 24rem;
 }
 
 .outer__container{
@@ -278,6 +280,8 @@ textarea {
   grid-column: span 6;
   text-align: center;
   grid-row: 2;
+  position: relative;
+  bottom: -15rem;
 }
 
 .grid-col-row-4-1{
@@ -344,5 +348,7 @@ textarea {
 .nav--item {
   display: grid;
   border: 2px solid black;
-  margin: 10px;
+  margin: 0;
+  padding: 50px;
+  background-color: red;
 }
