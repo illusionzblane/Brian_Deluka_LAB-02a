@@ -664,4 +664,7 @@ width:80px;
   .nav--item{
     display: none;
   }
+  .container__logos{
+    display: none;
+  }
 }
