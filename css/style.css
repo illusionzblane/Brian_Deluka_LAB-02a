@@ -262,6 +262,7 @@ textarea {
   display: flex;
   grid-column: span 6;
   align-items: center;
+  margin: auto;
 
 }
 
@@ -269,7 +270,6 @@ textarea {
   display: flex;
   text-align: center;
   position: relative;
-  left: 24rem;
 }
 
 .outer__container{
@@ -538,7 +538,7 @@ width:80px;
 }
 
 
-/*Table*/
+/*Tablet*/
 @media (min-width: 701px) and (max-width: 1120px){
   .page{
     display: grid;
@@ -582,6 +582,20 @@ width:80px;
   
   .grid-col-row-3-1 div:nth-child(4){
     display:block;
+  }
+
+  .page__header{
+    display: grid;
+    margin-left: -40rem;
+    justify-content: center;
+  }
+
+  .container__header{
+    max-width: 10rem;
+  }
+  
+  .container__header div:nth-child(2){
+    max-width: 2px;
   }
 }
 
@@ -640,5 +654,14 @@ width:80px;
     color:white;
     border-bottom:20px solid transparent;
     border-image: linear-gradient(to right, #16242f 0%, #16242f 15%, #25c389 15%, #25c389 30%, #ffb901 30%,  #ffb901 45%,#de6262 45%,#de6262 60%,#1691bd 60%,#1691bd 75%,#166ba2 75%,#166ba2 90%, #16242f 90%, #16242f 100%) 1;
+  }
+  .container__header{
+    display: flex;
+    grid-column: span 6;
+    align-items: center;
+    margin: auto;
+  }
+  .nav--item{
+    display: none;
   }
 }
