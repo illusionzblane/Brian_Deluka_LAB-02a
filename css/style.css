@@ -294,6 +294,17 @@ textarea {
 .grid-col-row-4-1{
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  position:relative;
+  margin: auto;
+  gap: 127px;
+}
+
+.grid-col-row-4-1-ttwd{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  position:relative;
+  margin: auto;
+  gap: 127px;
 }
 
 .grid-col-row-6-2{
@@ -725,4 +736,8 @@ width:80px;
 .intro--text {
   font-weight: lighter;
   font-size: 30px;
+}
+
+.item {
+  gap: 10px;
 }
