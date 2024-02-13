@@ -288,6 +288,7 @@ textarea {
   grid-row: 2;
   position: relative;
   bottom: -15rem;
+  padding-bottom: 520px;
 }
 
 .grid-col-row-4-1{
@@ -346,8 +347,13 @@ textarea {
   color:#999;
 }
 
+.subheader__container {
+  position: relative;
+  bottom: 69px;
+}
+
 .subheader{
-  text-align: center;
+  text-align: center;  
 }
 
 .pic {
@@ -364,7 +370,6 @@ textarea {
 
 .nav--item {
   display: grid;
-  border: 2px solid black;
   margin: 0;
   padding: 50px;
   background-color: red;
@@ -374,6 +379,7 @@ textarea {
   background-color: #16242f;
   width: 100vw;
   color:white;
+  margin: auto;
   border-bottom:20px solid transparent;
   border-image: linear-gradient(to right, #16242f 0%, #16242f 65%, #25c389 65%, #25c389 70%, #ffb901 70%,  #ffb901 75%,#de6262 75%,#de6262 80%,#1691bd 80%,#1691bd 85%,#166ba2 85%,#166ba2 90%, #16242f 90%, #16242f 100%) 1;
 }
@@ -667,4 +673,56 @@ width:80px;
   .container__logos{
     display: none;
   }
+}
+
+.home--item {
+  background-color: rgb(37, 195, 137);
+}
+
+.pages--item {
+  background-color: rgb(255, 185, 1);
+}
+
+.blog--item {
+  background-color: rgb(222, 98, 98);
+}
+
+.portfolio--item {
+  background-color: rgb(22, 145, 189);
+}
+
+.home2--item {
+  background-color: rgb(22, 107, 162);
+}
+
+.minon--image {
+  max-width: 80%;
+  margin-top: 100px;
+}
+
+.minion--image--container {
+  max-width: 100%;
+  margin-top: -165px;
+  background-color: rgb(235, 235, 235);
+}
+
+.minon--image {
+  margin-top: 0px;
+  max-width: 60%;
+  height: auto;
+  position: relative;
+  left: 55px;
+}
+
+.minion--section {
+  margin-top: -4.9rem;
+}
+
+.metrolics--color {
+  color: rgb(30, 175, 222);
+}
+
+.intro--text {
+  font-weight: lighter;
+  font-size: 30px;
 }
